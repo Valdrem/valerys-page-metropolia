@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valery - Welcome!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Header -->
+    <div class="header">
+        <p class="logo-txt">Valery's page</p>
+        <div class="navigation">
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="dev.html">Devs</a>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="section-1" id="home">
+        <h1>Welcome to <span class="highlight">Valery's page!</span></h1>
+        <div>
+            <img class="section-1-img" src="assets/earth-render.png" alt="The Earth Orbit render made on Blender">
+            <p class="section-1-img-alt">"Earth's Orbit" render made on Blender</p> 
+        </div>
+    </div>
+
+    <div class="section-2" id="gallery">
+        <div class="card-holder">
+            <h2>Modelling</h2>
+            <img class="card-holder-img" src="assets/modelling-blender.png" alt="Product 1"></img>
+            <p>Modeling is the process of creating a 3D representation of an object. In this project, I began by constructing simple spheres. Multiple spheres were used, with each one representing a different layer of the Earth’s structure, for example, separate spheres for the atmosphere and the ground terrain.</p>
+        </div>
+        <div class="card-holder">
+            <h2>Simulating</h2>
+            <img class="card-holder-img" src="assets/simulating-blender.png" alt="Product 2"></img>
+            <p>The project involved simulating the atmosphere, clouds, volumetric effects, lighting, and reflections. The length and direction of shadows were dynamically determined by the Sun’s angle, adding to the overall realism of the scene. The terrain was also taken into account to ensure a realistic representation of the Earth's surface. I used Earth data from NASA.</p>
+        </div>
+        <div class="card-holder highlight">
+            <h2>Final Result</h2>
+            <img class="card-holder-img" src="assets/earth-render.png" alt="Product 3"></img>
+            <p></p>
+            <p>“Earth’s Orbit” is my most ambitious and detailed render to date. The original piece was fully animated, with a total render time of approximately eight hours. Its complexity comes from the use of volumetrics, as well as advanced lighting and shadow simulation, all created using the Cycles engine. In addition to rendering on Blender, the scene was enchanced on DaVinci Resolve.</p>
+        </div>
+    </div>
+     
+    <div class="footer" id="contact">
+        <div class="contact-holder">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p>Karaportti 2<br>02240 ESPOO<br>Finland</p>
+                <p><b>Email:</b> valery.dremov@metropolia.fi</p>
+                <p><b>Phone:</b> +000 00 000 0000</p>
+            </div>
+            <img class="map-img" src="assets/map.png" alt="Map"></img>
+        </div>
+    </div>
+
+</body>
